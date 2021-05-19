@@ -8,7 +8,7 @@ pipeline {
   environment { 
     // Tags
     imageName   = "backend"
-    sourceCode  = "https://github.com/snowjet/demo-quote-gen.git"
+    sourceCode  = "https://github.com/kirikae/demo-quote-gen.git"
     prodTag     = "0.0"
     project     = "pipes"
     // sourceCode = "${sourceCode}"

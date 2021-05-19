@@ -49,7 +49,7 @@ spec:
   source:
     type: Git
     git:
-      uri: 'https://github.com/snowjet/demo-quote-gen.git'
+      uri: 'https://github.com/kirikae/demo-quote-gen.git'
       ref: master
     contextDir: quotegen
   triggers:
@@ -225,7 +225,7 @@ apiVersion: apps.openshift.io/v1
 metadata:
   annotations:
     app.openshift.io/vcs-ref: master
-    app.openshift.io/vcs-uri: 'https://github.com/snowjet/demo-quote-gen'
+    app.openshift.io/vcs-uri: 'https://github.com/kirikae/demo-quote-gen'
     app.openshift.io/connects-to: 'database'
   name: backend
   labels:
